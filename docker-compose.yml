@@ -6,3 +6,4 @@ services:
         image: vcml10/uco:latest
         container_name: ubuntu_cuda_opencv 
         volumes: .:/workspace
+        command: make
